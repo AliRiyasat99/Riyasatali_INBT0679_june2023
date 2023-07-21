@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        body {
+            background-color: blueviolet;
+        }
+          
+        .leftpanel {
+            overflow: hidden;
+            background-color: green;
+        }
+          
+        .leftpanel a {
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+          
+        .leftpanel a:hover {
+            background-color: orangered;
+            color: black;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .leftpanel {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .leftpanel a {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+
+        .grid-item {
+            border: 2px solid black;
+            height: 60vh;
+            padding: 10px;
+            background-color: blueviolet;
+        }
+        
+        ul li {
+            font-weight: bolder;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 10px;
+        }
+        
+        h1 {
+            font-size: 300%;
+            color: #f10bd3;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .grid-item {
+                height: auto;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="leftpanel">
+        <a href="bio.html">Personal Bio</a>
+        <a href="skills.html">Skills</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="grid-container">
+        <div class="grid-item">
+            <h1>Skills</h1>
+            <hr>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>BOOTSTRAP</li>
+                <li>DESKTOP TROUBLESHOOTING</li>
+                <li>WINDOW INSTALLATION</li>
+                <li>DESKTOP CONFIGURATION</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

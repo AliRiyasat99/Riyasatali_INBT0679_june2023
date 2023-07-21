@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio</title>
+    <style>
+    body {
+        background-color: blueviolet;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .leftpanel {
+        overflow: hidden;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .leftpanel a {
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .leftpanel a:hover {
+        background-color: orangered;
+        color: black;
+      }
+      
+      .heading1 {
+        color: black;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        padding: 5px;
+        gap: 20px;
+      }
+      
+      .grid-item {
+        border: 2px solid black;
+        min-height: 40vh;
+        padding: 10px;
+        background-color: blueviolet;
+      }
+      
+      h2 {
+        background-color: rgba(8, 5, 58, 0.863);
+        color: aliceblue;
+        height: 150px;
+        padding: 20px;
+        margin: 0;
+      }
+    </style>
+</head>
+<body>
+
+<div class="leftpanel">
+  <a href="bio.html">Personal Bio</a>
+  <a href="skills.html">Skills</a>
+  <a href="project.html">Project</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="biodata">
+  <h1 class="heading1">Personal Information</h1>
+  <hr>
+  <h2>My name is Riyasat Ali. I was born in Gola Gokarannath district, Lakhimpur Kheri. I am a postgraduate student of UPRTOU. I completed my graduation from CSJMU Kanpur, and I have a Master's degree in Computer Applications for my post-graduation. Brief qualifications are below-</h2>
+  <hr>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <h1>Diploma</h1>
+    <hr>
+    <p>I have done a diploma in computer hardware and networking from Jetking. I learned about computer hardware configuration and troubleshooting, network configuration and troubleshooting, and Windows configuration and troubleshooting.</p>
+  </div>
+  
+  <div class="grid-item">
+    <h1>Graduation</h1>
+    <hr>
+    <p>I have done graduation (B.Sc. Mathematics) from CSJMU Kanpur. The college name was Babu Rameshwar Dayal Degree College, Lakhimpur. I completed my graduation in five years and received a third division. My subjects were Mathematics, Physics, and Chemistry.</p>
+  </div>
+  
+  <div class="grid-item">
+    <h1>Post-Graduation</h1>
+    <hr>
+    <p>I am pursuing MCA from UPRTOU Prayagraj, Uttar Pradesh, and this is my last semester. I am currently learning HTML, CSS, and JavaScript.</p>
+  </div>
+</div>
+
+</body>
+</html>

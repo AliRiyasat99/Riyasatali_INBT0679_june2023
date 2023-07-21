@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            margin: 0;
+        }
+
+        .leftpanel {
+            overflow: hidden;
+            background-color: green;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .leftpanel a {
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .leftpanel a:hover {
+            background-color: orangered;
+            color: black;
+        }
+
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: auto;
+            padding: 5px 5px;
+            row-gap: 20px;
+            justify-content: center;
+        }
+
+        .grid-item1 {
+            border: 2px solid black;
+            padding: 50px;
+            background-color: blueviolet;
+        }
+
+        body {
+            background-color: brown;
+        }
+
+        @media (min-width: 600px) {
+            .grid-container1 {
+                grid-template-columns: auto auto;
+                column-gap: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="leftpanel">
+        <a href="bio.html">Personal Bio</a>
+        <a href="skills.html">Skills</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="grid-container1">
+        <div class="grid-item1">
+            <h1>Contact</h1>
+            <hr>
+            <p>
+                Name - Riyasat Ali <br>
+                Email - ali.riyasat2711@gmail.com <br>
+                Mobile Number - 8840969484
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
